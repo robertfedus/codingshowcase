@@ -1,8 +1,3 @@
-/*
- * Created on Fri Aug 14 2020
- *
- * Copyright (c) 2020 One FPS
- */
 const nodemailer = require('nodemailer');
 const User = require('./../models/userModel');
 
