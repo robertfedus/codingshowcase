@@ -1,0 +1,50 @@
+* {
+  font-family: 'Josefin Sans', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body,
+#root,
+.App {
+  height: 100%;
+}
+
+button,
+a,
+input {
+  transition: 0.2s;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+p {
+  line-height: 1.6;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600&display=swap');
+
+:root {
+  --main-blue: #3454d1;
+  --light-blue: #8395e0;
+  --accent-cyan: #54c2bb;
+  --dark-cyan: #4cccc3be;
+  --dark-gray: #b2b4b5;
+  --light-gray: #dadada;
+  --red: #f34f45;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
